@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Hans Schenker <hans.schenker@windowslive.com> (http://www.netxpert.ch/)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "3.0.0"
+  }
 }

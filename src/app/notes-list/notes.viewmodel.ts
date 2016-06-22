@@ -3,10 +3,12 @@ import view from './notes.view';
 
 
     var octopus = {
-        addNewNote: function(noteStr) {
+        addNewNote: function(contentStr,titleStr) {
             model.add({
-                content: noteStr
+                content: contentStr,
+                title: titleStr
             });
+            
             view.render();
         },
 

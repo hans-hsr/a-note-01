@@ -2,9 +2,10 @@
 var notes_model_1 = require('../notes-details/notes.model');
 var notes_view_1 = require('./notes.view');
 var octopus = {
-    addNewNote: function (noteStr) {
+    addNewNote: function (contentStr, titleStr) {
         notes_model_1.default.add({
-            content: noteStr
+            content: contentStr,
+            title: titleStr
         });
         notes_view_1.default.render();
     },
